@@ -13,9 +13,6 @@ export default function Login() {
             resizeMode="cover">
             <Stack.Screen options={{
                 title: 'Login',
-                headerStyle: { backgroundColor: '#000' },
-                headerTintColor: '#fff',
-                headerTitleStyle: { fontWeight: 'bold', fontSize: 30 }
             }} />
             <View style={styles.container}>
                 <Text style={styles.title}>Login</Text>

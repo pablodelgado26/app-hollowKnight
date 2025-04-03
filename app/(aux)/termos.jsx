@@ -7,9 +7,6 @@ export default function TermosDeUso() {
     <ScrollView contentContainerStyle={styles.container}>
       <Stack.Screen options={{
         title: 'Termos',
-        headerStyle: { backgroundColor: '#000' },
-        headerTintColor: '#fff',
-        headerTitleStyle: { fontWeight: 'bold', fontSize: 30 }
       }} />
       <Text style={styles.title}>Termos de Uso</Text>
 

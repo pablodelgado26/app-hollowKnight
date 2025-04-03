@@ -5,18 +5,22 @@ import {
   Pressable,
   StyleSheet,
 } from "react-native";
-import { Link } from "expo-router";
+import { Link, Stack } from "expo-router";
 
 export default function Sobre() {
   return (
     <View style={styles.container}>
+      <Stack.Screen
+        options={{
+          title: "Sobre",
+        }}
+      />
       <ImageBackground
         source={{
           uri: "https://i.redd.it/mq05l4h0ylia1.jpg",
         }}
         style={styles.background}
       >
-        
         <Text style={styles.title}>Sobre o App</Text>
         <View style={styles.textContainer}>
           <Text style={styles.aboutText}>
